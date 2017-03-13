@@ -1,0 +1,56 @@
+Client1:
+panda025@csel-x29-08:~/Desktop/dfs$ ./runBulkClient.sh
+Starting Client...
+Enter the bulk operation count: 100000
+Enter the node server ip: 128.101.37.72
+Enter the node server port: 9092
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+The time taken to execute the process is : 694593ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 636408ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 68882ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 69102ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 423316ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 50
+The time taken to execute the process is : 380672ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 70
+The time taken to execute the process is : 223011ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 
+
+Client2:
+panda025@csel-x29-09:~/Desktop/dfs$ ./runBulkClient.sh
+Starting Client...
+Enter the bulk operation count: 100000
+Enter the node server ip: 128.101.37.71
+Enter the node server port: 9092
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+The time taken to execute the process is : 693865ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 636554ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 68431ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 69321ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 417706ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 50
+The time taken to execute the process is : 382001ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 70
+The time taken to execute the process is : 226810ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 
+

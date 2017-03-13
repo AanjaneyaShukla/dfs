@@ -1,0 +1,69 @@
+shukl031@csel-x29-11:~/csci5105-PA2$ ./runBulkClient.sh
+Starting Client...
+Enter the bulk operation count: 10000
+Enter the node server ip: 128.101.37.57
+Enter the node server port: 10091
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+The time taken to execute the process is : 34985ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 25253ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 24691ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 30191ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 29100ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 28579ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 5724ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 4461ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 4243ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 50
+The time taken to execute the process is : 19562ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 50
+The time taken to execute the process is : 19398ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 70
+The time taken to execute the process is : 15735ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 70
+The time taken to execute the process is : 16044ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 23222ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 23999ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 27664ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 33261ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 31838ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 31988ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 28032ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 28026ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 95
+The time taken to execute the process is : 8689ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 95
+The time taken to execute the process is : 9091ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 4

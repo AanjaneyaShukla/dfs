@@ -1,0 +1,5 @@
+
+public enum NodeOperations {
+	READ, WRITE, VERSION, BULKREAD, BULKWRITE, BULKMIX, QUIT, DFSSTRUCTURE;
+
+}

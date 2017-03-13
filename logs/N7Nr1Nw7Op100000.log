@@ -1,0 +1,75 @@
+Client1:
+panda025@csel-x29-08:~/Desktop/dfs$ ./runBulkClient.sh
+Starting Client...
+Enter the bulk operation count: 100000
+Enter the node server ip: 128.101.37.59
+Enter the node server port: 9091
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+The time taken to execute the process is : 47997ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+
+The time taken to execute the process is : 720904ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: Invalid input entered. Please try again
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 674755ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 40103ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 43471ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 531422ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 577955ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 3
+128.101.37.58:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.59:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.66:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.55:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.60:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.57:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.56:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)}
+The time taken to execute the process is : 111ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 50
+The time taken to execute the process is : 414190ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 70
+The time taken to execute the process is : 267794ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 
+
+Client2:
+panda025@csel-x29-09:~/Desktop/dfs$ ./runBulkClient.sh
+Starting Client...
+Enter the bulk operation count: 100000
+Enter the node server ip: 128.101.37.66
+Enter the node server port: 9091
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+The time taken to execute the process is : 61797ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+
+The time taken to execute the process is : 720869ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: Invalid input entered. Please try again
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 1
+The time taken to execute the process is : 674257ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 52750ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 0
+The time taken to execute the process is : 57311ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 520072ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 30
+The time taken to execute the process is : 575032ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 3
+128.101.37.58:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.59:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.66:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.55:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.60:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.57:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)} 128.101.37.56:9091 {test8.txt=FileContent(contents:42783, version:85460), test2.txt=FileContent(contents:42331, version:84645), test6.txt=FileContent(contents:42809, version:85536), test1.txt=FileContent(contents:42317, version:84456), test4.txt=FileContent(contents:42924, version:85436), test7.txt=FileContent(contents:42110, version:84393), test3.txt=FileContent(contents:42353, version:84998), test5.txt=FileContent(contents:42373, version:85068)}
+The time taken to execute the process is : 174ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 50
+The time taken to execute the process is : 409221ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 2
+Enter the read bulk operation percent: 70
+The time taken to execute the process is : 266892ms
+Enter the type of operation [0=BULKREAD, 1=BULKWRITE, 2=BULKMIX, 3=DFS_STRUCTURE, 4=QUIT]: 
